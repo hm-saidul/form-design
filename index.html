@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h2>Registration Form</h2>
+    <form action="#">
+      <div class="content">
+        <div class="input-box">
+          <label for="fName">Your Name:</label>
+          <input type="text" id="fName" required placeholder="Enter Your Name">
+        </div>
+        <div class="input-box">
+          <label for="uName">User Name:</label>
+          <input type="text" id="uName" required placeholder="Enter User Name" name="uname">
+        </div>
+        <div class="input-box">
+          <label for="mail">Your Email:</label>
+          <input type="email" id="mail" required placeholder="Enter Your Email" name="email">
+        </div>
+        <div class="input-box">
+          <label for="phone">Your Phone:</label>
+          <input type="number" id="phone" required placeholder="Enter Your Number" name="phone">
+        </div>
+        <div class="input-box">
+          <label for="password">Your Password:</label>
+          <input type="password" id="password" required placeholder="Enter Your password" name="password">
+        </div>
+        <div class="input-box">
+          <label for="confirmPassword">Confirm Pass:</label>
+          <input type="password" id="confirmPassword" required placeholder="Enter Confirm password">
+        </div>
+        <!-- <br> -->
+        <span class="gender-title">Gender:</span><br>
+        <div class="gender-category">
+          <input type="radio" name="gender" id="male">
+          <label for="male">Male</label>
+          <input type="radio" name="gender" id="female">
+          <label for="female">Female</label>
+          <input type="radio" name="gender" id="other">
+          <label for="other">Other</label>
+        </div>
+      </div>
+      <div class="alert">
+        <p>By clicking alert <a href="#"><i>privacy policy</i></a> and <a href="#"><i>terms</i></a> and condition</p>
+      </div>
+      <div class="button-container">
+        <button>Register</button>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
